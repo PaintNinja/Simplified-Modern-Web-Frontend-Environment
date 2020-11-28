@@ -24,6 +24,7 @@
   },
   "dependencies": {
     "@babel/core": "^7.12.3",
+    "@snowpack/plugin-optimize": "^0.2.9",
     "@yarnpkg/pnpify": "^2.3.3",
     "lit-element": "^2.3.1",
     "lit-html": "^1.2.1"
