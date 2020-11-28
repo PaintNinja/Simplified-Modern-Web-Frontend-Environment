@@ -22,13 +22,19 @@ This template is a proposed solution for most frontend needs, minus the complexi
 
 _DON'T `npm install`!_
 
-#### 1. `yarn set version berry`
+#### 1. Grab and extract the repo zip
+
+- You can download it here: https://github.com/PaintNinja/Simplified-Modern-Web-Frontend-Environment/archive/main.zip
+- Extract it to a new empty folder.
+- Enter the folder in a terminal. On Windows you can go to the folder in File Explorer then shift + right click -> open in command prompt/powershell/windows terminal
+
+#### 2. `yarn set version berry`
 
 This sets the yarn version to v2 (aka "berry") rather than the legacy "Yarn Classic" v1 branch.
 
 You should run this once before proceeding with any of the below steps to avoid node_modules bloat.
 
-#### 2. `yarn install`
+#### 3. `yarn install`
 
 This sets up the dev environment, grabbing any missing dependencies.
 
